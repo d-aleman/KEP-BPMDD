@@ -29,9 +29,9 @@ The program is implemented in C++ and includes several test instances of varying
 ## Instances
 
 - PrefLib: Originally available at <https://www.preflib.org/datasets#00036> under Kidney Data
-- HSPInstances: A subset of modified instances from the PrefLib library to include highly-sensitized patients (HSP). Instances in this set are named after their original instances in the PrefLib library plus (i) the proportion of low-sensitized pairs over the total number of pairs ($\sigma$) and (ii) the compatibility probability for low-sensitized pairs ($pl$). The filename `KP_Num<A>_N<B>_A<C>_<D>_<E>_0.txt` indicates compatibility graph structure:
+- HSPInstances: A subset of modified instances from the PrefLib library to include highly-sensitized patients (HSP). Instances in this set are named after their original instances in the PrefLib library plus (i) the proportion of low-sensitized pairs over the total number of pairs ($\sigma$) and (ii) the compatibility probability for low-sensitized pairs ($p_\ell$). The filename `KP_Num<A>_N<B>_A<C>_<D>_<E>_0.txt` indicates compatibility graph structure:
     - `A`: PrefLib instance number
     - `B`: Number of PDPs+NDDs (patient donor pairs plus non-directed donors)
     - `C`: Number of NDDs
     - `D`: $\sigma$
-    - `E`: $pl$
+    - `E`: $p_\ell$
